@@ -1,12 +1,12 @@
----
-title: About Goldydocs
+<!-- ---
+title: Ethernet Notes
 linkTitle: About
 menu: {main: {weight: 10}}
 ---
 
-{{% blocks/cover title="About Goldydocs" image_anchor="bottom" height="auto" %}}
+{{% blocks/cover title="About" image_anchor="bottom" height="auto" %}}
 
-A sample site using the Docsy Hugo theme.
+Exploring Ethernet technology &mdash; A personal knowledge base to document and share insights.
 {.mt-5}
 
 {{% /blocks/cover %}}
@@ -32,4 +32,4 @@ different sections of the documentation and site for more ideas.
 # This is another section
 {.text-center}
 
-{{% /blocks/section %}}
+{{% /blocks/section %}} -->
