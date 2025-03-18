@@ -1,25 +1,25 @@
 ---
-title: Background
-description: >
-  What is Ethernet? What is networking?
-weight: 4
+title: OSI Model
+linkTitle: OSI Model
+# description: 
+weight: 2
 ---
 
+
 {{% pageinfo %}}
-
-This is a placeholder page that shows you how to use this template site.
-
+"Man is something that shall be overcome. What have you done to overcome him?" (_Thus Spoke Zarathustra_, Nietzsche)
 {{% /pageinfo %}}
 
 
-## What is Ethernet?
 
-### Open Systems Interconnection (OSI)
+## Open Systems Interconnection (OSI)
 
-The Open Systems Interconnection (OSI) reference model describes 7 layers of networking functions:
+The Open Systems Interconnection (OSI) reference model is a conceptual framework that divides network operations into seven layers:
 
 <img src="/content/basics/osi-model.svg" alt="OSI Model">
 
+
+## Example
 
 Here is a step-by-step breakdown of the process, following the OSI model, to help you better understand the networking functions. The scenario involves a user typing "www.example.com" into a web browser and pressing "Enter", attempting to fetch the webpage from the remote server:
 
@@ -69,39 +69,20 @@ Here is a step-by-step breakdown of the process, following the OSI model, to hel
 
     &rarr; Sends back an HTTP response, which is broken into TCP segments  &rarr;  ​Encapsulated into IP packets &rarr;  ​Wrapped in new Ethernet frames &rarr;  ​Transmitted as bits back to the client.
 
-<br>
+
+
+## Role of Ethernet
 
 
 From the above example, we can identify the role of Ethernet in the following aspects:
 
 * **Local Communication:** Ethernet handles data transfer between devices on the same network (in this example, the user's computer and the router).
-
-​* **MAC Addressing:** Ethernet uses MAC addresses to uniquely identify devices on a ​local network, ensuring frames reach the correct device on the LAN.
-
+* **MAC Addressing:** Ethernet uses MAC addresses to uniquely identify devices on a ​local network, ensuring frames reach the correct device on the LAN.
 * **​Error Detection:** The Frame Check Sequence (FCS) in Ethernet frames verifies data integrity.
 
 
 Although the OSI model is not an architecture or blueprint for network design, the OSI model provides a common organizational scheme for network standardization.
 
 
-## The Ethernet System
 
-* Before:   
-    **Half-duplex mode**: typical operation for Ethernet devices (before Ethernet switches)
-
-    * Multiple computers communicate over a single Ethernet channel via the CSMA/CD MAC protocol.   
-    * Only one computer can send data over the Ethernet channel at any given time.  
-    * A station first listens to the channel, and if the channel is idle, the station transmits its data (Ethernet frames).
-    * Speed: 10 and 100 Mb/s
-
-
-
-* These days:  
-    **Full-duplex mode**: selected with Auto-Negotiation protocol
-
-    * Devices can send and receive data simultaneously.  
-    * Each station connected to a switch port does not share the Ethernet channel bandwidth on that link with any other computer.
-
-
-## The Ethernet Standards
 

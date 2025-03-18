@@ -1,8 +1,8 @@
----
+<!-- ---
 title: Reference
 description: Low level reference docs for your project.
 weight: 9
----
+--- -->
 
 {{% pageinfo %}}
 This is a placeholder page that shows you how to use this template site.
