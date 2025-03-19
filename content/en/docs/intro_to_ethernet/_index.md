@@ -1,7 +1,8 @@
 ---
 title: Introduction to Ethernet
 description: What is Ethernet? Understanding Ethernet through the OSI model
-categories: [Ethernet]
+categories: [Networking]
+tags: [Ethernet]
 weight: 1
 ---
 

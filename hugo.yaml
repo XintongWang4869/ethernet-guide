@@ -126,7 +126,7 @@ params:
   github_repo: https://github.com/XintongWang4869/ethernet-guide
 
   # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-  github_project_repo: https://github.com/XintongWang4869/ethernet-guide
+  # github_project_repo: https://github.com/XintongWang4869/ethernet-guide
 
   # Specify a value here if your content directory is not in your repo's root directory
   # github_subdir: ""
@@ -193,6 +193,10 @@ params:
     #     desc: Practical questions and curated answers
     # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
     developer:
+      - name: Contact me!
+        url: mailto:email@xintong3248@gmail.com
+        icon: fa fa-envelope
+        desc: Discuss development issues around the project    
       - name: GitHub
         url: https://github.com/XintongWang4869
         icon: fab fa-github
@@ -201,10 +205,6 @@ params:
         url: http://www.linkedin.com/in/xintong3248
         icon: fa-brands fa-linkedin
         desc: Chat with other project developers
-      - name: Contact
-        url: mailto:email@xintong3248@gmail.com
-        icon: fa fa-envelope
-        desc: Discuss development issues around the project
 
 module:
   # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:

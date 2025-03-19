@@ -1,7 +1,7 @@
 ---
 title: Welcome
 linkTitle: Docs
-menu: {main: {weight: 20}}
+menu: {main: {weight: 1}}
 ---
 
 {{% pageinfo %}}
@@ -12,7 +12,7 @@ _Cuncti adsint meritaeque expectent praemia palmae_   — "May all be here, and 
 Welcome to my knowledge base! 
 
 This site is a collection of my study and reading notes on Ethernet and networking concepts, written from the perspective of a technical writer in the semiconductor industry. 
-Topics range from Ethernet protocols, interface specifications, and device performance. If you are new to this area, I hope you find these notes helpful!
+Topics cover Ethernet standards and protocols, Ethernet frame structure, and Ethernet switches in network communication. If you are new to this area, I hope you find these notes helpful!
 
 
 The content is a work in progress — I'm still organizing my previous notes, and new content will grow over time.

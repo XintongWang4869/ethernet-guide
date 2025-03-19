@@ -1,7 +1,8 @@
 ---
 title: OSI Model
 linkTitle: OSI Model
-# description: 
+categories: [Networking]
+tags: [Ethernet, OSI Model]
 weight: 2
 ---
 
