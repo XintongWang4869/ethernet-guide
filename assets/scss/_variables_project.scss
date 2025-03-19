@@ -15,3 +15,30 @@ Add styles or override variables from the theme here.
 .td-page-meta__project-issue {
     display: none !important;
 }
+
+.tooltip-text {
+    position: relative;
+    cursor: pointer;
+    color: #30638e !important;
+}
+
+.tooltip-text:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: #ffffff !important;
+    color: #444;
+    padding: 12px 12px;
+    border: 1px solid #999;
+    border-radius: 6px !important;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+    z-index: 100;
+    font-size: 13px;
+    white-space: pre-line;
+    font-weight: normal !important;
+    font-family: Roboto;
+
+}

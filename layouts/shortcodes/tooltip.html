@@ -1,0 +1,4 @@
+<span class="tooltip-text"
+    data-tooltip='{{ .Get "key" }} ({{ index .Site.Data.abbr_corpus (.Get "key") 0 }})&#10;&#10;{{ index .Site.Data.abbr_corpus (.Get "key") 1 }}'>
+    {{ .Get "text" }}
+</span>

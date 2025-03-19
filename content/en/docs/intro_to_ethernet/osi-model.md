@@ -1,6 +1,6 @@
 ---
-title: OSI Model
-linkTitle: OSI Model
+title: The OSI Model
+linkTitle: The OSI Model
 categories: [Networking]
 tags: [Ethernet, OSI Model]
 weight: 2
@@ -17,8 +17,41 @@ weight: 2
 
 The Open Systems Interconnection (OSI) reference model is a conceptual framework that divides network operations into seven layers:
 
-<img src="/content/basics/osi-model.svg" alt="OSI Model">
+* **Application Layer:**
+    * Provides ​network services directly to end-user applications, how?
+        * User interface
+        * Specific rules (protocols) for different apps
+        * Data semantics
+* **Presentation Layer:**   
+    * Ensures data sent by one application can be correctly interpreted by another<sup>1</sup>, and also ensures secure<sup>2</sup>, and efficient communication<sup>3</sup>:
+        1. Data format conversion
+        2. Data encryption/decryption
+        3. Data compression
 
+* **Session Layer:**
+    * Manages and controls connections (ie, sessions) between applications     
+
+* **Transport Layer:** 
+    * Provides end-to-end error recovery mechanisms
+        - TCP (Transmission Control Protocol) for accurate communication
+        - UDP (User Datagram Protocol) for fast communication
+
+* **Network Layer:** 
+    * Establishes communications across different networks
+        - Logical addressing: assigns unique IP addresses to devices
+        - Routing: finds the best path for data to travel between source and destination
+
+* **Data Link Layer:** 
+    * Ensures ​reliable data transfer between devices within the same network (LAN)
+
+* **Physical Layer:** 
+    * Defines how data is transmitted as:
+        * Electrical signals over copper cables
+        * Optical signals over fiber
+        * Radio signals over radio waves
+
+
+![OSI Model](/content/en/docs/intro_to_ethernet/figures/osi-model.png)
 
 ## Example
 
