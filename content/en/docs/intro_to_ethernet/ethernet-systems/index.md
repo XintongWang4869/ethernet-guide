@@ -1,11 +1,11 @@
-<!-- ---
+---
 title: Ethernet System
 linkTitle: Ethernet System
 # description: 
 categories: [Networking]
 tags: [Ethernet]
-weight: 3
---- -->
+weight: 8
+---
 
 
 {{% pageinfo %}}

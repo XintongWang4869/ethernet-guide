@@ -17,6 +17,12 @@ weight: 2
 
 The Open Systems Interconnection (OSI) reference model is a conceptual framework that divides network operations into seven layers:
 
+
+<figure style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+  <img src="osi-model-1.svg" alt="OSI Model" style="max-width: 100%;">
+  <figcaption style="font-style: italic; color: gray;">OSI Model</figcaption>
+</figure>
+
 * **Application Layer:**
     * Provides ​network services directly to end-user applications, how?
         * User interface
@@ -51,15 +57,17 @@ The Open Systems Interconnection (OSI) reference model is a conceptual framework
         * Radio signals over radio waves
 
 
-![OSI Model](/content/en/docs/intro_to_ethernet/figures/osi-model.png)
 
-## Example
 
-Here is a step-by-step breakdown of the process, following the OSI model, to help you better understand the networking functions. The scenario involves a user typing "www.example.com" into a web browser and pressing "Enter", attempting to fetch the webpage from the remote server:
+
+
+## Example Scenario
+
+To better understand the networking functions of each layer, here is a step-by-step breakdown of the process. The scenario involves a user typing `www.example.com` in a web browser and pressing "Enter", attempting to fetch the webpage from the remote server:
 
 1. Application Layer (Layer 7)  
 
-    The user browser generates an ​HTTP/HTTPS GET request for www.example.com, during which a DNS (Domain Name System) server is used to resolve www.example.com to an IP address.
+    The user browser generates an ​HTTP/HTTPS GET request for `www.example.com`, during which a **{{< tooltip text="DNS (Domain Name System)" key="DNS" >}}** server is used to resolve `www.example.com` to an IP address, such as `192.168.1.1` ({{< tooltip text="IPv4" key="IPv4" >}}).
 
 2. Presentation Layer (Layer 6) 
 
@@ -81,7 +89,8 @@ Here is a step-by-step breakdown of the process, following the OSI model, to hel
 
     The IP packet is wrapped inside an **Ethernet frame** (MAC Header + payload + Trailer), which adds the source and destination MAC addresses, to be transmitted between devices on the ​same local network. The Ethernet frame is sent from the user computer to the router.     
     
-    > If the user is using WI-FI instead of wired Ethernet, the IP packet is wrapped inside Wi-Fi frames, which will then be converted into ​radio signals in the Physical Layer. 
+    {{% alert title="Note" %}}If the user is using WI-FI instead of wired Ethernet, the IP packet is wrapped inside Wi-Fi frames, which will then be converted into ​radio signals in the Physical Layer..{{% /alert %}}
+
 
 7. Physical Layer (Layer 1)
 

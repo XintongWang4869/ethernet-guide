@@ -1,10 +1,10 @@
-<!-- ---
+---
 title: Ethernet Standards
 linkTitle: Ethernet Standards
 # description: 
 categories: [Networking]
 tags: [Ethernet Standards]
-weight: 4 -->
+weight: 5
 ---
 
 {{% pageinfo %}}

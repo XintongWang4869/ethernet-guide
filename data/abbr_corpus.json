@@ -115,6 +115,10 @@
         "Data Loss Prevention",
         "DLP is a part of a company's overall security strategy that detects data loss, as well as prevents the illicit transfer of data outside the organization and the unwanted destruction of sensitive or personally identifiable data."
     ],
+    "DNS": [
+        "Domain Name System",
+        "The DNS acts as a lookup system translating between domain names and IP addresses. Domain names are easier for humans to remember and use, whereas IP addresses are necessary for machines to locate and communicate with one another."
+    ],
     "DSCP": [
         "Differentiated Services Codepoint",
         "Differentiated Services Codepoint is a means of classifying and managing network traffic and of providing QoS (Quality of Service) in modern Layer 3 IP networks."
@@ -230,6 +234,10 @@
     "IPG": [
         "Interpacket Gap",
         "The interpacket gap is a pause between network packets, also known as interframe gap (IFG). It is a minimum amount of time that must transpire between the transmission of one data packet and the beginning of the transmission of a subsequent data packet by the same sender."
+    ],
+    "IPv4": [
+        "Internet Protocol version 4",
+        "An IPv4 address consists of four decimal numbers; each number ranges from 0 to 255, separated by dots. \nIPv6 is the newer version designed to accommodate the increasing number of devices to provide larger address space."
     ],
     "IRQ": [
         "Interrupt Request",
