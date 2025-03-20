@@ -8,8 +8,8 @@ on:
   pull_request:
 
 env:
-  REPO_NAME: ${{ github.event.repository.name }}
-  REPO_OWNER: ${{ github.repository_owner }}
+  REPO_NAME: ethernet-guide
+  REPO_OWNER: XintongWang4869
 
 jobs:
   deploy:
