@@ -49,6 +49,10 @@ The Open Systems Interconnection (OSI) reference model is a conceptual framework
 
 * **Data Link Layer:** 
     * Ensures ​reliable data transfer between devices within the same network (LAN)
+    * Has two sublayers:  
+        * Logical Link Control (LLC)   
+        * Media Access Control (MAC) 
+    ![DDL Sublayers](./osi-model-2.svg)
 
 * **Physical Layer:** 
     * Defines how data is transmitted as:
