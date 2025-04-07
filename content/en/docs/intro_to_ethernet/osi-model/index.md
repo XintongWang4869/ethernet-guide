@@ -13,7 +13,7 @@ weight: 2
 
 
 
-## Open Systems Interconnection (OSI)
+## Layers of the OSI Model
 
 The Open Systems Interconnection (OSI) reference model is a conceptual framework that divides network operations into seven layers:
 
@@ -61,29 +61,30 @@ The Open Systems Interconnection (OSI) reference model is a conceptual framework
         * Radio signals over radio waves
 
 
+Among the seven layers, Ethernet covers Media Access Control (MAC) from Data Link Layer (Layer 2) and Physical Layer (Layer 1). To better understand the networking functions of each layer and the role of Ethernet in the process, see the next section for an example.
 
-
+{{% alert title="Note" %}}The OSI model is only a framework, **not** an architecture or blueprint for network design. However, the OSI model provides a common organizational scheme for network standardization.{{% /alert %}}
 
 
 ## Example Scenario
 
-To better understand the networking functions of each layer, here is a step-by-step breakdown of the process. The scenario involves a user typing `www.example.com` in a web browser and pressing "Enter", attempting to fetch the webpage from the remote server:
+Here is a step-by-step breakdown of the process of an example scenario, where a user types `www.example.com` in a web browser and presses "Enter", attempting to fetch the webpage from the remote server:
 
 1. Application Layer (Layer 7)  
 
-    The user browser generates an ​HTTP/HTTPS GET request for `www.example.com`, during which a **{{< tooltip text="DNS (Domain Name System)" key="DNS" >}}** server is used to resolve `www.example.com` to an IP address, such as `192.168.1.1` ({{< tooltip text="IPv4" key="IPv4" >}}).
+    The user browser generates an ​HTTP/HTTPS GET request for `www.example.com`, during which a {{< tooltip text="DNS (Domain Name System)" key="DNS" >}} server is used to resolve `www.example.com` to an IP address, such as an {{< tooltip text="IPv4" key="IPv4" >}} address of `192.168.1.1`.
 
 2. Presentation Layer (Layer 6) 
 
-    Before transmission, encrypt the request with TLS (Transport Layer Security) if the sites uses HTTPS. The data is compressed.
+    Before transmission, encrypt the request with {{< tooltip text="TLS (Transport Layer Security)" key="TLS" >}} if the sites uses HTTPS, and the data is compressed.
 
 3. Session Layer (Layer 5)   
 
-    A session is established between the user browser and the server, to handle authentication and persistent connections.
+    A session is established between the user browser and the server, to handle authentication (such as login credentials, if applicable), maintain the communication flow, and manage persistent connections for subsequent interactions.
 
 4. Transport Layer (Layer 4)  
 
-     Transmission Control Protocol (TCP) is used in this case for connection-oriented, reliable delivery. Data is broken into ​segments (TCP Header + payload) for transmission.
+    {{< tooltip text="TCP (Transmission Control Protocol)" key="TCP" >}} is used in this case for connection-oriented, reliable delivery. Data is broken into ​segments (TCP Header + payload) for transmission.
 
 5. Network Layer (Layer 3)     
 
@@ -93,7 +94,7 @@ To better understand the networking functions of each layer, here is a step-by-s
 
     The IP packet is wrapped inside an **Ethernet frame** (MAC Header + payload + Trailer), which adds the source and destination MAC addresses, to be transmitted between devices on the ​same local network. The Ethernet frame is sent from the user computer to the router.     
     
-    {{% alert title="Note" %}}If the user is using WI-FI instead of wired Ethernet, the IP packet is wrapped inside Wi-Fi frames, which will then be converted into ​radio signals in the Physical Layer..{{% /alert %}}
+    {{% alert title="Note" %}}If the user is using WI-FI instead of wired Ethernet, the IP packet is wrapped inside Wi-Fi frames, which will then be converted into ​radio signals in the Physical Layer.{{% /alert %}}
 
 
 7. Physical Layer (Layer 1)
@@ -118,7 +119,7 @@ To better understand the networking functions of each layer, here is a step-by-s
 
 
 
-## Role of Ethernet
+## The Role of Ethernet
 
 
 From the above example, we can identify the role of Ethernet in the following aspects:
@@ -128,7 +129,10 @@ From the above example, we can identify the role of Ethernet in the following as
 * **​Error Detection:** The Frame Check Sequence (FCS) in Ethernet frames verifies data integrity.
 
 
-Although the OSI model is not an architecture or blueprint for network design, the OSI model provides a common organizational scheme for network standardization.
+
+<br>
+
+<br>
 
 
 

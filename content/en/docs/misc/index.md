@@ -8,6 +8,13 @@ weight: 10
 ---
 
 {{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
+"Some men see things as they are and say why, I dream things that never were and say why not." (Robert F. Kennedy, paraphrasing George Bernard Shaw)
 {{% /pageinfo %}}
+
+Coming soon!
+
+<br>
+
+<br>
+
 
