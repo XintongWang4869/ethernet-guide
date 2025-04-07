@@ -1,6 +1,6 @@
 # A Hugo-Powered Site for Ethernet Notes
 
-This site is a collection of my study and reading notes on Ethernet and networking concepts.
+This [site](https://xintongwang4869.github.io/ethernet-guide/) is a collection of my study and reading notes on Ethernet and networking concepts.
 
 
 The content is a work in progress — I'm still organizing my previous notes, and new content will grow over time.
